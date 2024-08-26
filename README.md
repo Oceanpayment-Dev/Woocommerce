@@ -1,4 +1,4 @@
-<h4>Overview</h4>
+<h2>Overview</h2>
 <h4>Klarna transaction status response code description:</h4>
 <ol>
     <li>Success status: payment_details = 80000 and payment_status = -1 (pre-authorization status, authorization or withdrawal can be performed through the pre-auth function). Orders that need to be shipped can be authorized first, and authorization will be revoked if they are not shipped;</li>
