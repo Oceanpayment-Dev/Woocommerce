@@ -1,12 +1,11 @@
-<h2>Overview</h4>
-<div style="color:red">
-Klarna transaction status response code description:
+<h4>Overview</h4>
+<h4>Klarna transaction status response code description:</h4>
 <ol>
     <li>Success status: payment_details = 80000 and payment_status = -1 (pre-authorization status, authorization or withdrawal can be performed through the pre-auth function). Orders that need to be shipped can be authorized first, and authorization will be revoked if they are not shipped;</li>
    <li>Pending non-pre-authorization status: payment_details = 80003 and payment_status = -1, (enter Klarna risk control, the payment result can be changed to success or failure for a maximum of 24 hours);</li>
    <li>Failure status: payment_details = 80072, payment_status = 0.</li>
 </ol>
-</div>
+
 <h2>WordPress plugin, support the latest version.</h2>
 <h4>Introduce</h4>
 WordPress is a website creation tool and content management system based on the PHP programming language, and many websites run on it. Its extensible template and plug-in framework enable WordPress site owners to integrate OP for accepting payments quickly.
