@@ -3,7 +3,7 @@
 <ol>
     <li>Success status: payment_details = 80000 and payment_status = -1 (pre-authorization status, authorization or withdrawal can be performed through the pre-auth function). Orders that need to be shipped can be authorized first, and authorization will be revoked if they are not shipped;</li>
    <li>Pending non-pre-authorization status: payment_details = 80003 and payment_status = -1, (enter Klarna risk control, the payment result can be changed to success or failure for a maximum of 24 hours);</li>
-   <li>Failure status: payment_details = 80072, payment_status = 0.</li>
+   <li>Failure status: payment_status = 0.</li>
 </ol>
 
 <h2>WordPress plugin, support the latest version.</h2>
