@@ -1,4 +1,4 @@
-<h2>Overview</h4>
+<h4>Overview</h4>
 Oceanpayment supports mainstream open-source payment plug-ins, such as Magento, WordPress, OpenCart, PrestaShop, and Zen Cart, which are easy to install and save development costs and resources. 
 <h2>WordPress plugin, support the latest version.</h2>
 <h4>Introduce</h4>
@@ -46,10 +46,6 @@ WordPress is a website creation tool and content management system based on the 
   <tr>
     <td>Submiturl</td>
     <td>Production:Production environment;Sandbox:Test environment.</td>
-  </tr>
-  <tr>
-    <td>Pay page Mode</td>
-    <td>Redirect:Redirect to open payment page;iframe:iframe payment page.</td>
   </tr>
   <tr>
     <td>Payment Logos</td>
