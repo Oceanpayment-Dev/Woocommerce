@@ -1,5 +1,11 @@
-<h2>Overview</h4>
-Oceanpayment supports mainstream open-source payment plug-ins, such as Magento, WordPress, OpenCart, PrestaShop, and Zen Cart, which are easy to install and save development costs and resources. 
+<h2>Overview</h2>
+<h4>Klarna transaction status response code description:</h4>
+<ol>
+    <li>Success status: payment_details = 80000 and payment_status = -1 (pre-authorization status, authorization or withdrawal can be performed through the pre-auth function). Orders that need to be shipped can be authorized first, and authorization will be revoked if they are not shipped;</li>
+   <li>Pending non-pre-authorization status: payment_details = 80003 and payment_status = -1, (enter Klarna risk control, the payment result can be changed to success or failure for a maximum of 24 hours);</li>
+   <li>Failure status: payment_status = 0.</li>
+</ol>
+
 <h2>WordPress plugin, support the latest version.</h2>
 <h4>Introduce</h4>
 WordPress is a website creation tool and content management system based on the PHP programming language, and many websites run on it. Its extensible template and plug-in framework enable WordPress site owners to integrate OP for accepting payments quickly.
@@ -46,10 +52,6 @@ WordPress is a website creation tool and content management system based on the 
   <tr>
     <td>Submiturl</td>
     <td>Production:production environment;Sandbox:Test environment.</td>
-  </tr>
-  <tr>
-    <td>Pay page Mode</td>
-    <td>Redirect:Redirect to open payment page;iframe:iframe payment page.</td>
   </tr>
     <tr>
     <td>Write The Logs</td>
